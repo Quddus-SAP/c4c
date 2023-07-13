@@ -1,0 +1,26 @@
+<mvc:View controllerName="qs.c4c.controller.CA"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Table id="CA_TB" items="{/CorporateAccountCollection}">
+                <columns>
+                    <Column id="CA_TB_C_AI">
+                        <Text id="CA_TB_C_T_ID" text="Account ID"/>
+                    </Column>
+                    <Column id="CA_TB_C_N">
+                        <Text id="CA_TB_C_T_AN" text="Name"/>
+                    </Column>
+                </columns>
+                <items>
+                    <ColumnListItem id="CA_CLI">  
+                          <cells>
+                                <Text id="CA_TB_C_TV_ID" text="{AccountID}"/>
+                                <Text id="CA_TB_C_TV_AN" text="{Name}"/>
+                          </cells> 
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </content>
+    </Page>
+</mvc:View>
