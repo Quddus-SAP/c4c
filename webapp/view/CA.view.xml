@@ -6,10 +6,10 @@
             <Table id="CA_TB" items="{/CorporateAccountCollection}">
                 <columns>
                     <Column id="CA_TB_C_AI">
-                        <Text id="CA_TB_C_T_ID">Account ID</Text>
+                        <Text id="CA_TB_C_T_ID" text="Account ID"/>
                     </Column>
                     <Column id="CA_TB_C_N">
-                        <Text id="CA_TB_C_T_AN">Name</Text>
+                        <Text id="CA_TB_C_T_AN" text="Name"/>
                     </Column>
                 </columns>
                 <items>
